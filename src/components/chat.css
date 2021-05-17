@@ -1,0 +1,65 @@
+.banner {
+  font-size: 50px;
+  font-family: sans-serif;
+  background-color: pink;
+  text-align: center;
+  color: white;
+  margin-top:-3.5%;
+}
+
+body {
+    background-color: rgb(51, 48, 48);
+  }
+
+.chatbox {
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: white;
+  margin-left:25%;
+  overflow-y: auto;
+  direction: ltr;
+  height:700px;
+  width: 850px;
+
+}
+.chatbox p {
+  margin: 1px;
+  direction: ltr;
+}
+
+.inputBoxes {
+  display: flex;
+  order: 2;
+  flex-direction: row;
+  margin-left:40%;
+  margin-bottom: 3px;
+}
+
+.guzik { 
+  font-size: 25px;
+  border-radius: 3%;
+  color:pink;
+  box-shadow: 0px 0px 10px 1px;
+  padding: 0px 159px;
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  margin-left:35%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.gamebox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.inputbox {
+  padding: 3px;
+  background-color:pink;
+}
+.userInputBox {
+  padding: 3px;
+  background-color:pink;
+}
